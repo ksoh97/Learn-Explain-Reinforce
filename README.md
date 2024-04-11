@@ -15,14 +15,14 @@ This repository provides a TensorFlow implementation of the following paper:
 - We propose a novel learn-explain-reinforce framework that integrates the following tasks: (1) training a diagnostic model, (2) explaining a diagnostic model's output, and (3) reinforcing the diagnostic model based on the explanation systematically.
 - To the best of our knowledge, this work is the first that exploits an explanation output to improve the generalization of a diagnostic model reciprocally.
 - In regard to explanation, we propose a GAN-based method to produce multi-way counterfactual maps that can provide a more precise explanation, accounting for severity and/or progression of AD.
-
-![Group 2896 (3)](https://user-images.githubusercontent.com/57162425/141603646-f714edb2-cc01-4b22-80df-056da791947c.png)
+<p align="center"><img width="90%" src="https://user-images.githubusercontent.com/57162425/141603646-f714edb2-cc01-4b22-80df-056da791947c.png" /></p>
 
 ![Group 2897 (1)](https://user-images.githubusercontent.com/57162425/141603979-e9f58b9b-6424-4392-8158-1dbb2353b5d3.png)
 
 ## Results
 ###  Example of counterfactual map conditioned on interpolated target labels
-![Group 2584](https://user-images.githubusercontent.com/57162425/141603337-4951d4d6-8237-4fc1-80dd-8c87f7dd9d18.png)
+<p align="center"><img width="80%" src="https://user-images.githubusercontent.com/57162425/141603337-4951d4d6-8237-4fc1-80dd-8c87f7dd9d18.png" /></p>
+
 ### Visual explanation comparison between XAI methods
 ![Group 2777](https://user-images.githubusercontent.com/57162425/141603345-abdf11e0-f7bf-4ecf-979e-f1604cd27c2c.jpg)
 
@@ -84,16 +84,16 @@ xga_gen_weight_path = Pre-trained XGA-injected counterfactual map generator weig
 If you find this work useful for your research, please cite our [journal publication](https://ieeexplore.ieee.org/document/9854196):
 
 ```
-@ARTICLE{9854196,
+@article{oh2022learn,
+  title={Learn-explain-reinforce: counterfactual reasoning and its guidance to reinforce an Alzheimer's Disease diagnosis model},
   author={Oh, Kwanseok and Yoon, Jee Seok and Suk, Heung-Il},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={Learn-Explain-Reinforce: Counterfactual Reasoning and Its Guidance to Reinforce an Alzheimer's Disease Diagnosis Model}, 
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={45},
+  number={4},
+  pages={4843--4857},
   year={2022},
-  publisher={IEEE},
-  volume={},
-  number={},
-  pages={1-15},
-  doi={10.1109/TPAMI.2022.3197845}}
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgement
